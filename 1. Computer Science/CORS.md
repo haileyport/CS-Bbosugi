@@ -81,3 +81,7 @@ Same Origin Policy의 준말로 `같은 출처의 리소스`만 공유가 가능
 이 때 프론트에서는 `credentials`를 true로 설정하고 서버에서는
 
 `Access-Control-Allow-Credentials`를 true로 설정한다.
+
+Reference
+
+- https://evan-moon.github.io/2020/05/21/about-cors/

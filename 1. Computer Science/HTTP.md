@@ -80,7 +80,7 @@ HTTP/2.0은 아래와 같은 특징을 가지고 있습니다.
 
 ### HTTPS는 HTTP랑 뭐가 다른가요?
 
-![HTTP 메시지](https://joongbu.raonctf.com/static/essential/images/protocol/ssl_tls_01.jpg)
+![HTTP와 HTTPS 차이점](https://joongbu.raonctf.com/static/essential/images/protocol/ssl_tls_01.jpg)
 
 HTTPS 란 암호화를 통해 HTTP를 더 안전하게 사용할 수 있도록 하는 프로토콜입니다. 기존 HTTP에서는 전송 데이터를 암호화하지 않습니다. 따라서 요청과 응답 데이터가 전송되는 도중에 쉽게 도난당할 수 있습니다.
 

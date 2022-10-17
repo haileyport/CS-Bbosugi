@@ -6,7 +6,7 @@
 
 출처는 여러 구조로 되어있는데, **`https://google.com`** 를 예로 들면
 
-`https` 가 출처, `ttps://google.com` 이 host인데, 이 이외에 `path`, `query string`, `fragment` 그리고 :80, :443 같은 포트 번호로 구성되어 있다.
+`https` 가 출처, `https://google.com` 이 host인데, 이 이외에 `path`, `query string`, `fragment` 그리고 :80, :443 같은 포트 번호로 구성되어 있다.
 
 포트 번호까지 명시되어 있는 경우 서로 포트 번호까지 동일해야만 같은 출처로 인정이 된다.
 
@@ -76,7 +76,7 @@ Same Origin Policy의 준말로 `같은 출처의 리소스`만 공유가 가능
 
 기본적으로 fetch API 같은 걸로 서버에 요청을 보낼 때 인증이나 쿠키에 관련된 헤더 정보를 담는건 위험하다.
 
-그렇기 때문에 인증과 관련된 정보를 담을 수 있게 해주는 `credential`이라는 옵션이 존재한다.
+그렇기 때문에 인증과 관련된 정보를 담을 수 있게 해주는 `credentials`라는 옵션이 존재한다.
 
 이 때 프론트에서는 `credentials`를 true로 설정하고 서버에서는
 

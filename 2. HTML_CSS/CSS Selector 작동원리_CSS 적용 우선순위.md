@@ -23,10 +23,9 @@ selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. �
 # 2. CSS 적용 우선순위
 ![](https://images.velog.io/images/khsfun0312/post/1dd50153-6f75-4173-9aa9-bd6b7e0a2072/image.png)
 
-### 📍CSS 적용 우선순위는 크게 3가지
+### 📍CSS 적용 우선순위는 크게 2가지
 **1. 기본적으로 뒤에 나오는 css가 우선순위가 높습니다.<br>
-2. `!important` > `inline style attribute` > `id` > `class`, 다른 attribute, 수도클래스(:first-child같은 것) > `tag element`, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높습니다.<br>
-3. 우선순위가 같다면 개수가 많은 css가 우선순위가 높습니다.**
+2. `!important` > `inline style attribute` > `id` > `class`, 다른 attribute, 수도클래스(:first-child같은 것) > `tag element`, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높습니다.<br>**
 
 ---
 

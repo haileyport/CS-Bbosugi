@@ -3,7 +3,7 @@
 
 ---
 
-## #. CSS selector의 작동 원리
+# 1. CSS selector의 작동 원리
 ### 🔎 CSS selector란?
 selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. 이를 통해 특정 요소들을 선택하여 스타일을 적용할 수 있게 됩니다 
 ### 📍그럼 CSS selector는 어떠한 원리로 동작할까?
@@ -15,18 +15,20 @@ selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. �
 * `Universal` : *
 ![](https://velog.velcdn.com/images/fejigu/post/31957534-7140-4692-824c-d8d6fa137709/image.png)
 
-그럼 CSS selector는 어떠한 원리로 동작할까요?
+❓그럼 CSS selector는 어떠한 원리로 동작할까요?<br>
 👉🏻**스타일 엔진은 키 셀렉터로부터 시작하여 왼쪽으로 이동하면서 엘리먼트가 규칙에 적합한지 확인합니다. 만약 엘리먼트가 이 규칙에 적합하거나 적합하지 않다는게 확인되면 멈추게 되는 것입니다.**
 
 ---
 
-## #. CSS 적용 우선순위
+# 2. CSS 적용 우선순위
 ![](https://images.velog.io/images/khsfun0312/post/1dd50153-6f75-4173-9aa9-bd6b7e0a2072/image.png)
 
 ### 📍CSS 적용 우선순위는 크게 3가지
 **1. 기본적으로 뒤에 나오는 css가 우선순위가 높습니다.<br>
-2. !important > inline style attribute > id > class, 다른 attribute, 수도클래스(:first-child같은 것) > tag element, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높습니다.<br>
+2. `!important` > `inline style attribute` > `id` > `class`, 다른 attribute, 수도클래스(:first-child같은 것) > `tag element`, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높습니다.<br>
 3. 우선순위가 같다면 개수가 많은 css가 우선순위가 높습니다.**
+
+---
 
 #### 1. !important
 우선순위 최상위의 명령어, 속성값 바로 뒤에 넣는다
@@ -60,6 +62,9 @@ p{color: red}
 ```javascript
 *{color: red}
 ```
+
+---
+
 #### 🔎 만약 같은 우선 순위에 있다면?
 같은 우선 순위에 있는 경우, <br>
 **부모-자식 관계가 많은 경우가 우선되며, 모든 설정이 같은 경우 나중에 선언한 것이 우선되어 적용됩니다**

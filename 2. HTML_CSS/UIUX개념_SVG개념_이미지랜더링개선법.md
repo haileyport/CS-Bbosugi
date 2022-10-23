@@ -6,7 +6,8 @@ UI는 모니터 화면 뿐만 아니라 핸드폰,마우스 등의 물리적인 
 
 제가 예전에 만들었던 계산기 목업..
 
-<img src='https://camo.githubusercontent.com/9aba5087ef310d968fc0eb52c353458211e23524c10a5bb581b8d5515949a6ad/68747470733a2f2f76656c6f672e76656c63646e2e636f6d2f696d616765732f676b746d643635322f706f73742f35643932303630312d386236392d343931332d626164652d3161393961393330626231352f696d6167652e706e67' />
+<div align='center'><img src='https://camo.githubusercontent.com/9aba5087ef310d968fc0eb52c353458211e23524c10a5bb581b8d5515949a6ad/68747470733a2f2f76656c6f672e76656c63646e2e636f6d2f696d616765732f676b746d643635322f706f73742f35643932303630312d386236392d343931332d626164652d3161393961393330626231352f696d6167652e706e67' />
+<img src='https://freefrontend.com/assets/img/css-calculators/2021-calculator-pure-css.png' /></div>
 
 사용자가 한 눈에 보고 숫자가 들어간 동그라미 모양을 버튼이라고 인식할 수 있을까요?
 
@@ -119,3 +120,4 @@ Reference
 - https://brunch.co.kr/@dailyhotel/20
 - https://bythem.net/2021/03/03/svg%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/
 - <a href='https://fe-developers.kakaoent.com/2022/220714-next-image/'>Next/Image를 활용한 이미지 최적화</a>
+- <a href='https://freefrontend.com/css-calculators'>8 CSS Calculators</a>

@@ -118,3 +118,9 @@ p{color: red}
 **`CSS 스타일을 적용하는데는 다양한 방법이 있으며, 동시에 여러가지 방법을 사용할 수도 있기 때문에 엘리먼트에 적용되는 스타일이 충돌할 수도 있습니다.`**<br>
 
 따라서, 스타일 적용의 우선 순위 규칙을 알아둘 필요가 있는 것입니다.
+
+
+---
+
+https://www.w3schools.com/css/css_important.asp
+https://www.w3schools.com/cssref/css_selectors.php

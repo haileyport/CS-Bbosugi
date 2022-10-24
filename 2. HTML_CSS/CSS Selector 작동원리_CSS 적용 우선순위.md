@@ -32,7 +32,8 @@ selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. �
 우선순위를 무시하고, 꼭 적용 시키고 싶은 속성이 있다면, 속성 값 뒤에 !important 를 붙여서 적용시켜주면 됩니다.
 **`!important 는 우선순위 뿐만 아니라 디자이너-개발자간 커뮤니케이션시 중요한 속성임을 알리는 뜻을 나타내기도 합니다.`**
 
-🔎**이해 해보는 시간**
+🔎**이해 해보는 시간**<br>
+
 1)
 ```
 p {
@@ -53,7 +54,7 @@ p {
   color: blue;
 }
 ```
-![](https://static.wikia.nocookie.net/supernaturalpowers/images/d/d5/%EB%B9%A8%EA%B0%84%EC%83%89_%EA%B7%B8%EB%A6%BC.png/revision/latest?cb=20201209032858&path-prefix=ko)
+<span style="color:red"> 글씨색 변경 </span>
 
 3)다시 속성값을 재설정하고 싶으면 !important를 다시 붙입니다.
 ```

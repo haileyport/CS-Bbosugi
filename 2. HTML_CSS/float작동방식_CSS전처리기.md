@@ -74,7 +74,7 @@ CSS 전처리기는 일반 프로그래밍 언어처럼 다양한 논리 구문�
 
 ### SCSS와 SASS는 compile시 같은 CSS
 - 차이는 
-```
+```SCSS
 /* SCSS */
 
 $primary-color: seashell;
@@ -88,7 +88,7 @@ body {
 }
 ```
 
-```
+```SASS
 /* Sass */
 
 $primary-color: seashell
@@ -100,7 +100,7 @@ body
 ```
 
 모두 같은 CSS 파일로 compile 됩니다.
-```
+```CSS
 /* Compiled CSS */
 
 body {
@@ -109,7 +109,7 @@ body {
 }
 ```
 ### mixedin과 includes 예제
-```
+```SCSS
 /* SCSS */
 
 @mixin card($width, $height, $bg, $border) {
@@ -124,7 +124,7 @@ body {
 }
 ```
 
-```
+```SCSS
 /* SCSS */
 .card-1 {
   @include card(300px, 200px, yellow, red 2px solid);
@@ -135,7 +135,7 @@ body {
 ```
 
 #### 컴파일되면 다음과 같아집니다
-```
+```CSS
 /* Compiled CSS */
 .card-1 {
    width: 300px;
@@ -161,7 +161,7 @@ body {
 - &으로 중첩
 
 ### 중첩
-```
+```LESS
 .clearfix {
   display: block;
   zoom: 1;
@@ -188,7 +188,7 @@ body {
 - 대괄호, 콜론 및/또는 세미콜론을 생략하거나 모든 구두점을 모두 생략 가능
 - 할당 연산자(=)는 새 변수를 선언하므로 제거할 수 없다.
 - 파이썬 기반 언어이므로 들여쓰기를 제대로 하지 않으면 컴파일되지 않는다.
-```
+```STYLUS
 /* Stylus syntax without punctuation */
 
 primary-color = seashell

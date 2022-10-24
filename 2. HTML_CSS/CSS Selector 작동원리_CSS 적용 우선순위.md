@@ -20,13 +20,15 @@ selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. �
 ---
 
 # 2. CSS 적용 우선순위
-![](https://images.velog.io/images/khsfun0312/post/1dd50153-6f75-4173-9aa9-bd6b7e0a2072/image.png)
+
 
 ### 📍CSS 적용 우선순위는 크게 2가지
 **1. 기본적으로 뒤에 나오는 css가 우선순위가 높습니다.<br>
 2. `!important` > `inline style attribute` > `id` > `class`, 다른 attribute, 수도클래스(:first-child같은 것) > `tag element`, 수도엘레먼트(::before같은 것) 순으로 우선순위가 높습니다.<br>**
 
 ---
+
+![](https://images.velog.io/images/khsfun0312/post/1dd50153-6f75-4173-9aa9-bd6b7e0a2072/image.png)
 
 #### 1. !important
 우선순위를 무시하고, 꼭 적용 시키고 싶은 속성이 있다면, 속성 값 뒤에 !important 를 붙여서 적용시켜주면 됩니다.

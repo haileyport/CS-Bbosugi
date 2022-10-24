@@ -43,7 +43,8 @@ p {
   color: blue;
 }
 ```
-![](https://static.wikia.nocookie.net/supernaturalpowers/images/6/6d/%ED%8C%8C%EB%9E%80%EC%83%89_%EA%B7%B8%EB%A6%BC.png/revision/latest?cb=20211005054435&path-prefix=ko)
+![스크린샷 2022-10-24 오후 9 22 57](https://user-images.githubusercontent.com/102123710/197524614-ece6d4a5-50d7-43df-baf4-8ce15aaff260.png)
+
 
 2)
 ```
@@ -54,7 +55,8 @@ p {
   color: blue;
 }
 ```
-<span style="color:red"> 글씨색 변경 </span>
+![스크린샷 2022-10-24 오후 9 22 19](https://user-images.githubusercontent.com/102123710/197524527-c3290606-12d9-42fe-9941-112726ade3e8.png)
+
 
 3)다시 속성값을 재설정하고 싶으면 !important를 다시 붙입니다.
 ```
@@ -68,7 +70,9 @@ p {
   color: green !important;
 }
 ```
-![](https://us.123rf.com/450wm/ngonhan/ngonhan1206/ngonhan120601051/14267311-%EB%85%B9%EC%83%89-%ED%8E%98%EC%9D%B8%ED%8A%B8-%EC%A7%88%EA%B0%90-%EB%B0%B0%EA%B2%BD.jpg)
+![스크린샷 2022-10-24 오후 9 23 37](https://user-images.githubusercontent.com/102123710/197524732-84bd8d4a-4707-4d36-ac16-30679a3b2f07.png)
+
+<br>
 #### 2. inline 스타일 속성
 html 문서에서 tag 내에 style를 정의하는 것
 ```javascript

@@ -29,10 +29,45 @@ selector, 즉 선택자란 말 그대로 선택을 해주는 요소입니다. �
 ---
 
 #### 1. !important
-우선순위 최상위의 명령어, 속성값 바로 뒤에 넣는다
-```javascript
-p{color: red !important;}
+우선순위를 무시하고, 꼭 적용 시키고 싶은 속성이 있다면, 속성 값 뒤에 !important 를 붙여서 적용시켜주면 됩니다.
+**`!important 는 우선순위 뿐만 아니라 디자이너-개발자간 커뮤니케이션시 중요한 속성임을 알리는 뜻을 나타내기도 합니다.`**
+
+🔎**이해 해보는 시간**
+1)
 ```
+p {
+  color: red;
+}
+p {
+  color: blue;
+}
+```
+![](https://static.wikia.nocookie.net/supernaturalpowers/images/6/6d/%ED%8C%8C%EB%9E%80%EC%83%89_%EA%B7%B8%EB%A6%BC.png/revision/latest?cb=20211005054435&path-prefix=ko)
+
+2)
+```
+p {
+  color: red !important;
+}
+p {
+  color: blue;
+}
+```
+![](https://static.wikia.nocookie.net/supernaturalpowers/images/d/d5/%EB%B9%A8%EA%B0%84%EC%83%89_%EA%B7%B8%EB%A6%BC.png/revision/latest?cb=20201209032858&path-prefix=ko)
+
+3)다시 속성값을 재설정하고 싶으면 !important를 다시 붙입니다.
+```
+p {
+  color: red !important;
+}
+p {
+  color: blue;
+}
+p {
+  color: green !important;
+}
+```
+![](https://us.123rf.com/450wm/ngonhan/ngonhan1206/ngonhan120601051/14267311-%EB%85%B9%EC%83%89-%ED%8E%98%EC%9D%B8%ED%8A%B8-%EC%A7%88%EA%B0%90-%EB%B0%B0%EA%B2%BD.jpg)
 #### 2. inline 스타일 속성
 html 문서에서 tag 내에 style를 정의하는 것
 ```javascript

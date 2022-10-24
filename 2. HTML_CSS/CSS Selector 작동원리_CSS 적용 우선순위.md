@@ -72,7 +72,6 @@ p {
 ```
 ![스크린샷 2022-10-24 오후 9 23 37](https://user-images.githubusercontent.com/102123710/197524732-84bd8d4a-4707-4d36-ac16-30679a3b2f07.png)
 
-<br>
 #### 2. inline 스타일 속성
 html 문서에서 tag 내에 style를 정의하는 것
 ```javascript

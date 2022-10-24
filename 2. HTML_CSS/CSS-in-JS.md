@@ -1,6 +1,6 @@
 ## CSS IN JS는 무엇인가요?
 
-!()[https://postfiles.pstatic.net/MjAyMjEwMjRfMTAx/MDAxNjY2NTc4OTIzOTk0.IH7cQtyQ12hKKm6hzk7DGHm6cerOOBkYf2gTQ3tUcikg.scFXdQ4YFB9ppOiK2V2BTGVAnbxme4GRJjOIABwsPvog.PNG.dsilver0818/image.png?type=w966]
+![](https://postfiles.pstatic.net/MjAyMjEwMjRfMTAx/MDAxNjY2NTc4OTIzOTk0.IH7cQtyQ12hKKm6hzk7DGHm6cerOOBkYf2gTQ3tUcikg.scFXdQ4YFB9ppOiK2V2BTGVAnbxme4GRJjOIABwsPvog.PNG.dsilver0818/image.png?type=w966)
 
 1996년 CSS가 발표된 이후, 웹이 점점 복잡해지고 동적 기능 요구가 증가하면서 HTML과 CSS만으로는 화면의 모든 스타일을 제어할 수 없는 상황에 이르게 됨.
 이를 해결하기 위한 여러 가지 웹 애플리케이션 스타일 구성 방식이 나타났다
@@ -12,7 +12,7 @@
 
 ### CSS IN CSS
 
-!()[https://www.javascriptstuff.com/static/css-modules-diagram-incomplete-f2ff456c36a0f2ca41509827cc937eb2-f7c8c.png]
+![](https://www.javascriptstuff.com/static/css-modules-diagram-incomplete-f2ff456c36a0f2ca41509827cc937eb2-f7c8c.png)
 
 CSS 모듈은 CSS를 모듈화 하여 사용하는 방식
 CSS 클래스를 만들면 자동으로 고유한 클래스네임을 만들어서 scope를 지역적으로 제한
@@ -24,7 +24,6 @@ CSS 클래스를 만들면 자동으로 고유한 클래스네임을 만들어�
 **JavaScript 를 사용하여 구성 요소의 스타일 을 지정하는 스타일링 기술**
 
 2014년 페이스북 개발자인 Christopher Chedeau aka Vjeux가 처음 소개하였다
-
 Vjeux는 CSS를 작성하는 어려움을 다음과 같이 설명하였으며 CSS-in-JS로 이들 이슈를 모두 해결할 수 있다고 강조했습니다.
 
 - Global namespace: 글로벌 공간에 선언된 이름의 명명 규칙 필요
@@ -42,9 +41,9 @@ Vjeux는 CSS를 작성하는 어려움을 다음과 같이 설명하였으며 CS
 
 ### CSS IN JS vs. CSS IN CSS
 
-!()[https://image.samsungsds.com/kr/insights/web_component_img05.jpg?queryString=20221013055322]
+![](https://image.samsungsds.com/kr/insights/web_component_img05.jpg?queryString=20221013055322)
 
-!()[https://image.samsungsds.com/kr/insights/web_component_img06.jpg?queryString=20221013055322]
+![](https://image.samsungsds.com/kr/insights/web_component_img06.jpg?queryString=20221013055322)
 
 **CSS in JS의 장점**
 
@@ -62,7 +61,7 @@ Vjeux는 CSS를 작성하는 어려움을 다음과 같이 설명하였으며 CS
 
 ### 마치며
 
-!()[https://image.samsungsds.com/kr/insights/web_component_img09.jpg?queryString=20221013055322]
+![](https://image.samsungsds.com/kr/insights/web_component_img09.jpg?queryString=20221013055322)
 
 "CSS는 CSS에 작성하고 끝내세요."
 

@@ -7,6 +7,8 @@
 
  **왜 px보다는 rem을 활용하는 것이 좋은지**에 대해 알아보기로 한다.
 
+ <br>
+
 ### 픽셀을 사용했을 때 문제점
 ---
 픽셀은 모두가 아시다시피 **절대값**을 말한다.
@@ -30,6 +32,7 @@
 
 이렇게 되면 사용성에 큰 제약이 발생한다.
 
+ <br>
 
 ### 여기서 등장하는 rem!
 ---
@@ -48,6 +51,7 @@ rem에서 r은 root를 의미한다.
 
 rem은 고정값이 아니며 px로 직접 변환 할 수는 없지만 루트 글꼴 크기를 기반으로 px값을 계산 할 수 있다. 때문에 디자이너가 화면 계층 구조 내에서 다른 요소들과 어우러 질 수 있도록 원하는 글꼴 크기를 지정하면서 화면의 크기 변경에도 유연하게 반응 할 수 있다는 장점이 있다.
 
+ <br>
 
 ### em도 상대적인 단위인데 rem과 무엇이 다를까?
 ---
@@ -66,6 +70,8 @@ rem은 고정값이 아니며 px로 직접 변환 할 수는 없지만 루트 �
     
     예시) 컨테이너의 글꼴 크기가 2rem = 32px일 경우 컨테이너 내부에서 1em = 32px
 
+ <br>
+
 ### 정리
 ![img](https://velog.velcdn.com/images/wool/post/5dcfd05a-6d4f-405e-9ac0-7fca35392ba0/image.png)
 
@@ -73,21 +79,26 @@ rem은 고정값이 아니며 px로 직접 변환 할 수는 없지만 루트 �
 
 이러한 속성들을 파악하여 폰트크기 뿐만 아니라 패딩과 마진값을 설정 할 때 참고 하는 것이 좋다!
 
+ <br>
 
 # margin padding
 
 ![img](https://velog.velcdn.com/images/wool/post/1dc6068b-9c56-495e-89ec-7fcddd7c70bd/image.png)
 
 개발자도구를 열면 이렇게 요소의 박스모델을 확인 할 수 있다.
+ <br>
+
 **padding**
 
 Padding은 Content와 Border 사이의 여백을 나타낸는 영역이다. 
 
 Content 영역이 배경색이나 배경 이미지를 가질 때, 이 Padding 영역까지도 영향을 미친다. 즉, Padding 영역도 Content의 연장으로 볼 수 있다.
+ <br>
 
 **margin**
 
 Margin은 Border 바깥쪽을 차지한다. 주변 요소와 거리를 두기 위한 영역이다.
+ <br>
 
 ### margin과 padding의차이점
 
@@ -95,46 +106,54 @@ Margin은 Border 바깥쪽을 차지한다. 주변 요소와 거리를 두기 �
 
 출처 : https://enai.tistory.com/49
 
-1. 음수값 적용여부
-margin은 음수 값이 적용된다.
-padding은 음수 값이 적용되지 않는다.
+1. **음수값 적용여부**
 
-2. auto
-auto는 브라우저에 의해 계산이 되는 값이다. 0이나 해당 요소가 사용 가능한 공간과 같은 값을 가지게 된다.
+    margin은 음수 값이 적용된다.
+    padding은 음수 값이 적용되지 않는다.
 
-만약 좌우 margin이 모두 auto면, 해당 요소가 가질 수 있는 가로 영역 중 자신의 width를 제외한 나머지 여백 크기를 균등 분할하여 적용한다. 그래서 수평으로 가운데 정렬이 된다.
+2. **auto**
 
-즉, 가운데 정렬을 위해 margin: auto; / margin: 0 auto; 이렇게 사용하는 것을 많이 보았을 것이다.
+    auto는 브라우저에 의해 계산이 되는 값이다. 0이나 해당 요소가 사용 가능한 공간과 같은 값을 가지게 된다.
 
-이렇게 margin은 auto 값으로 선언할 수 있다.
+    만약 좌우 margin이 모두 auto면, 해당 요소가 가질 수 있는 가로 영역 중 자신의 width를 제외한 나머지 여백 크기를 균등 분할하여 적용한다. 그래서 수평으로 가운데 정렬이 된다.
 
-하지만 padding은 auto로 선언할 수 없다.
+    즉, 가운데 정렬을 위해 margin: auto; / margin: 0 auto; 이렇게 사용하는 것을 많이 보았을 것이다.
 
+    이렇게 margin은 auto 값으로 선언할 수 있다.
 
-3. collapse
-margin은 둘 이상의 요소의 margin 값이 둘 중 더 큰 margin 값으로 합쳐지는 특징이 있다.
-
-**margin collapse(마진 병합)**
-![img](https://velog.velcdn.com/images%2Fursr0706%2Fpost%2F67d3104c-5e30-4421-8b82-52ea208318d1%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-07-19%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.24.56.png)
-
-출처 : https://velog.io/@ursr0706/%EB%A7%88%EC%A7%84margin
-
-- 두 요소가 상하로 인접했을 때, 위 요소의 하단 margin과 상단 margin의 병합이 일어난다.
-- 내용이 없는 빈 요소의 경우, 해당 요소의 상단 margin과 하단 margin의 병합이 일어난다.
-- 인접하는 두 블록요소에 각각 margin:20px;의 속성을 줬을 때,위의 그림을 보면 section1의 하단 마진부분과 section2의 상단 마진부분이 서로 겹쳐져서
-그 사이의 마진이 총 40px이 아닌 20px이 되는 것을 볼 수 있다.
+    하지만 padding은 auto로 선언할 수 없다.
 
 
-- margin collapse가 일어나지 않는 상황
+3. **collapse**
 
-    수직 방향으로만 이루어지며, 좌우에 대해서는 일어나지 않는다.
+    margin은 둘 이상의 요소의 margin 값이 둘 중 더 큰 margin 값으로 합쳐지는 특징이 있다.
 
-    margin이 맞닿은 상황에서 발생하는 것이기 때문에, padding과 border가 있으면 일어나지 않을 수도 있다.
-    플로팅 요소와 절대 위치를 지정한 요소는 collapse가 일어나지 않는다
+    **margin collapse(마진 병합)**
 
-**padding은 collapse가 발생하지 않는다.**
+    ![img](https://velog.velcdn.com/images%2Fursr0706%2Fpost%2F67d3104c-5e30-4421-8b82-52ea208318d1%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-07-19%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.24.56.png)
 
-margin은 두 요소 바깥쪽의 간격을 나타내는 속성이며, padding은 요소의 border와 content 사이를 나눠주는 즉, 요소 내부의 간격을 나타내기 때문이라고 한다.
+    출처 : https://velog.io/@ursr0706/%EB%A7%88%EC%A7%84margin
+
+
+    - 두 요소가 상하로 인접했을 때, 위 요소의 하단 margin과 상단 margin의 병합이 일어난다.
+    - 내용이 없는 빈 요소의 경우, 해당 요소의 상단 margin과 하단 margin의 병합이 일어난다.
+    - 인접하는 두 블록요소에 각각 margin:20px;의 속성을 줬을 때,위의 그림을 보면 section1의 하단 마진부분과 section2의 상단 마진부분이 서로 겹쳐져서
+    그 사이의 마진이 총 40px이 아닌 20px이 되는 것을 볼 수 있다.
+
+
+    - margin collapse가 일어나지 않는 상황
+
+        수직 방향으로만 이루어지며, 좌우에 대해서는 일어나지 않는다.
+
+        margin이 맞닿은 상황에서 발생하는 것이기 때문에, padding과 border가 있으면 일어나지 않을 수도 있다.
+        플로팅 요소와 절대 위치를 지정한 요소는 collapse가 일어나지 않는다
+
+
+    **padding은 collapse가 발생하지 않는다.**
+
+    margin은 두 요소 바깥쪽의 간격을 나타내는 속성이며, padding은 요소의 border와 content 사이를 나눠주는 즉, 요소 내부의 간격을 나타내기 때문이라고 한다.
+
+    
 
 ### 참고
 ---
